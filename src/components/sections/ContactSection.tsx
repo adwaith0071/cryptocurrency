@@ -50,7 +50,7 @@ export const ContactSection: React.FC = () => {
               />
             </div>
 
-            <Button className="w-full md:w-auto bg-[#00ffa0] text-black font-semibold px-12 py-4 rounded-full text-xl hover:bg-[#00ffa0]/90">
+            <Button className="w-full md:w-auto bg-[#00ffa0] text-black font-semibold px-12 py-7 rounded-full text-xl hover:bg-[#00ffa0]/90">
               Send Message
             </Button>
           </div>

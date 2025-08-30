@@ -43,12 +43,12 @@ export const HeroSection: React.FC = () => {
       </div>
 
 
-      <div className="hidden lg:block absolute top-32 left-32 w-16 h-16 bg-[#fee71533] rounded-full flex items-center justify-center">
+      <div className="hidden lg:block absolute top-16 left-32 w-16 h-16 bg-[#fee71533] rounded-full flex items-center justify-center">
         <div className="flex items-center justify-center w-full h-full">
           <img className="w-8 h-8 object-contain" alt="Bitcoin" src="/coins-2--5.png" />
         </div>
       </div>
-      <div className="hidden lg:block absolute top-28 right-28 w-20 h-20 bg-[#cc313d33] rounded-full flex items-center justify-center rotate-12">
+      <div className="hidden lg:block absolute top-12 right-28 w-20 h-20 bg-[#cc313d33] rounded-full flex items-center justify-center rotate-12">
         <div className="flex items-center justify-center w-full h-full">
           <img className="w-10 h-10 object-contain" alt="Doge" src="/coins-2--5-3.png" />
         </div>

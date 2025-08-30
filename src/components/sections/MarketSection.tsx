@@ -51,7 +51,7 @@ export const MarketSection: React.FC<MarketSectionProps> = ({ cryptoData }) => {
                     <img className="w-24 h-12 mx-auto" alt="Chart" src={crypto.chart} />
                   </div>
 
-                  <Button className="bg-[#00ffa01a] border border-[#00ffa0] text-[#00ffa0] font-semibold px-6 py-3 rounded-full text-lg hover:bg-[#00ffa026] flex-shrink-0">
+                  <Button className="bg-[#00ffa01a]  border-[#00ffa0] text-[#00ffa0] font-semibold px-6 py-3 rounded-full text-lg hover:bg-[#00ffa026] flex-shrink-0">
                     Trade
                   </Button>
                 </div>
