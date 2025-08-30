@@ -19,19 +19,21 @@ import {
 
 export const HomePage: React.FC = () => {
   return (
-    <div className="bg-[#101427] min-h-screen w-full overflow-x-hidden">
-      <Header navigationItems={NAVIGATION_ITEMS} />
-      <div className="w-full h-px bg-gray-600"></div>
-      <HeroSection />
-      <TradingSection />
-      <MarketSection cryptoData={CRYPTO_DATA} />
-      <LearnSection 
-        featureCards={FEATURE_CARDS}
-        learningCards={LEARNING_CARDS}
-      />
-      <FAQSection faqData={FAQ_DATA} />
-      <ContactSection />
-      <Footer sections={FOOTER_SECTIONS} />
+    <div className="bg-[#101427] min-h-screen w-full overflow-hidden">
+      <div className="app-wrapper">
+        <Header navigationItems={NAVIGATION_ITEMS} />
+        <div className="w-full h-px bg-gray-600"></div>
+        <HeroSection />
+        <TradingSection />
+        <MarketSection cryptoData={CRYPTO_DATA} />
+        <LearnSection 
+          featureCards={FEATURE_CARDS}
+          learningCards={LEARNING_CARDS}
+        />
+        <FAQSection faqData={FAQ_DATA} />
+        <ContactSection />
+        <Footer sections={FOOTER_SECTIONS} />
+      </div>
     </div>
   );
 };

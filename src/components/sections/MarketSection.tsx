@@ -61,7 +61,7 @@ export const MarketSection: React.FC<MarketSectionProps> = ({ cryptoData }) => {
         </div>
 
         <div className="text-center">
-          <Button className="bg-[#00ffa026] border border-[#00ffa0]  text-[#00ffa0] font-semibold px-12 py-6 rounded-full text-xl hover:bg-[#00ffa033]">
+          <Button className="w-4/5 md:w-2/3 lg:w-1/2 bg-[#00ffa026] border border-[#00ffa0]  text-[#00ffa0] font-semibold px-16 md:px-20 py-6 rounded-full text-xl hover:bg-[#00ffa033]">
             View Other Crypto
           </Button>
         </div>

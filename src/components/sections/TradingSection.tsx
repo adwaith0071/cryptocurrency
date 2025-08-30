@@ -11,7 +11,7 @@ export const TradingSection: React.FC = () => {
   };
   return (
     <section className="relative px-4 md:px-8 lg:px-16 xl:px-20 py-8">
-      <Card className="max-w-5xl mx-auto bg-[#ffffff0d] rounded-2xl border-0 p-6 md:p-8">
+      <Card className="max-w-5xl mx-auto bg-[#ffffff0d] rounded-2xl border-0 p-6 md:p-8 min-h-[188px] md:min-h-[230px]">
         <CardContent className="p-0">
           <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
             <TabsList className="bg-transparent p-0 h-auto mb-8 flex justify-center">
