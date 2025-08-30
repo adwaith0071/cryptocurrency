@@ -22,10 +22,10 @@ export const ContactSection: React.FC = () => {
               chat features.
             </p>
             
-            <div className="flex space-x-4">
-              <img className="w-11 h-11 object-cover" alt="Facebook" src="/facebook.png" />
-              <img className="w-12 h-12 object-cover" alt="Instagram" src="/instagram.png" />
-              <img className="w-11 h-11 object-cover" alt="Send" src="/send-1-.png" />
+            <div className="flex space-x-7">
+              <img className="w-10 h-10 object-cover" alt="Facebook" src="/facebook.png" />
+              <img className="w-10 h-10 object-cover" alt="Instagram" src="/instagram.png" />
+              <img className="w-9 h-9 object-cover" alt="Send" src="/send-1-.png" />
             </div>
           </div>
 

@@ -32,14 +32,14 @@ export const Footer: React.FC<FooterProps> = ({ sections }) => {
               Download App
             </h3>
             <div className="space-y-4">
-              <div className="bg-white rounded-2xl p-4 flex items-center">
+              <div className="bg-white rounded-2xl p-3 flex items-center">
                 <img className="w-12 h-12 object-cover mr-4" alt="Google Play" src="/google-play-1.png" />
                 <div>
                   <div className="font-semibold text-black text-sm">Get it On</div>
                   <div className="font-semibold text-black text-xl">Google Play</div>
                 </div>
               </div>
-              <div className="bg-white rounded-2xl p-4 flex items-center">
+              <div className="bg-white rounded-2xl p-3 flex items-center">
                 <img className="w-12 h-12 object-cover mr-4" alt="App Store" src="/google-play-1-1.png" />
                 <div>
                   <div className="font-semibold text-black text-sm">Download On The</div>
