@@ -43,22 +43,22 @@ export const HeroSection: React.FC = () => {
       </div>
 
 
-      <div className="hidden lg:block absolute top-16 left-32 w-16 h-16 bg-[#fee71533] rounded-full flex items-center justify-center">
+      <div className="md:flex hidden items-center justify-center absolute top-16 left-32 w-16 h-16 bg-[#fee71533] rounded-full">
         <div className="flex items-center justify-center w-full h-full">
           <img className="w-8 h-8 object-contain" alt="Bitcoin" src="/coins-2--5.png" />
         </div>
       </div>
-      <div className="hidden lg:block absolute top-12 right-28 w-20 h-20 bg-[#cc313d33] rounded-full flex items-center justify-center rotate-12">
+      <div className="md:flex hidden items-center justify-center absolute top-12 right-28 w-20 h-20 bg-[#cc313d33] rounded-full rotate-12">
         <div className="flex items-center justify-center w-full h-full">
           <img className="w-10 h-10 object-contain" alt="Doge" src="/coins-2--5-3.png" />
         </div>
       </div>
-      <div className="hidden xl:block absolute bottom-40 left-40 w-14 h-14 bg-[#5928af33] rounded-full flex items-center justify-center -rotate-12">
+      <div className="md:flex hidden items-center justify-center absolute bottom-40 left-40 w-14 h-14 bg-[#5928af33] rounded-full -rotate-12">
         <div className="flex items-center justify-center w-full h-full">
           <img className="w-7 h-7 object-contain" alt="Ethereum" src="/coins-2--5-1.png" />
         </div>
       </div>
-      <div className="hidden xl:block absolute bottom-32 right-40 w-12 h-12 bg-[#33875a33] rounded-full flex items-center justify-center rotate-45">
+      <div className="md:flex hidden items-center justify-center absolute bottom-32 right-40 w-12 h-12 bg-[#33875a33] rounded-full rotate-45">
         <div className="flex items-center justify-center w-full h-full">
           <img className="w-6 h-6 object-contain" alt="Solana" src="/coins-2--5-2.png" />
         </div>
