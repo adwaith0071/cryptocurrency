@@ -205,7 +205,6 @@
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
-/* App wrapper to scale down entire content */
 .app-wrapper {
 
   zoom: 0.79
