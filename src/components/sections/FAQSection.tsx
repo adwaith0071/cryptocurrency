@@ -9,6 +9,9 @@ interface FAQSectionProps {
 export const FAQSection: React.FC<FAQSectionProps> = ({ faqData }) => {
   return (
     <section className="relative px-4 md:px-8 lg:px-16 xl:px-20 py-16 md:py-24">
+      <div className="absolute inset-0 bg-gradient-to-t from-[#0f1420] via-transparent to-transparent opacity-40"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-[#1a0f3a] via-transparent to-transparent opacity-25"></div>
+      <div className="absolute inset-0 bg-gradient-to-bl from-[#0f1a3a] via-transparent to-transparent opacity-25"></div>
       <div className="max-w-6xl mx-auto">
         <Badge className="block w-fit mx-auto bg-[#00ffa00d] rounded-full border-0 text-[#00ffa0] text-xl md:text-2xl font-medium px-8 py-4 mb-12">
           FAQs
